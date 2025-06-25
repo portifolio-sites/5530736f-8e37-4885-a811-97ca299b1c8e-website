@@ -1,151 +1,1050 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html class="wide wow-animation" lang="en">
 
 <head>
-	<title>Grupo Eneas Marinho</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<link rel="stylesheet" href="assets/css/main.css" />
+  <title>Home - Advogados Especialistas em Leilões e Suspensões</title>
+  <meta name="format-detection" content="telephone=no">
+  <meta name="viewport"
+    content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" type="text/css"
+    href="//fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic%7CLato:300,300italic,400,400italic,700,900%7CMerriweather:700italic">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .map-container {
+      overflow: hidden;
+      position: relative;
+      height: 300px;
+      /* Ajuste a altura conforme necessário */
+    }
+
+    .map-container iframe {
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+    }
+  </style>
 </head>
 
-<body class="is-preload">
+<body>
+  <div class="preloader">
+    <div class="preloader-body">
+      <div class="cssload-container">
+        <div class="cssload-speeding-wheel"> </div>
+      </div>
+      <p>Carregando...</p>
+    </div>
+  </div>
+  <div class="page">
+    <header class="page-head">
+      <div class="rd-navbar-wrap">
+        <nav class="rd-navbar rd-navbar-default" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed"
+          data-md-layout="rd-navbar-fixed" data-md-device-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-fixed"
+          data-lg-device-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static"
+          data-xl-device-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static"
+          data-xxl-device-layout="rd-navbar-static" data-lg-stick-up-offset="53px" data-xl-stick-up-offset="53px"
+          data-xxl-stick-up-offset="53px" data-lg-stick-up="true" data-xl-stick-up="true" data-xxl-stick-up="true">
+          <div class="rd-navbar-inner">
+            <div class="rd-navbar-aside-wrap">
+              <div class="rd-navbar-aside">
+                <div class="rd-navbar-aside-toggle" data-rd-navbar-toggle=".rd-navbar-aside"><span></span></div>
+                <div class="rd-navbar-aside-content">
+                  <ul class="rd-navbar-aside-group list-units">
+                    <li>
+                      <div class="unit unit-horizontal unit-spacing-xs align-items-center">
+                        <div class="unit-left"><span
+                            class="novi-icon icon icon-xxs icon-primary material-icons-phone"></span></div>
+                        <div class="unit-body"><a class="link-dusty-gray"
+                            href="https://web.whatsapp.com/send?phone=556282307903&text=Ol%C3%A1%2C%20estou%20entrando%20em%20contato%20atrav%C3%A9s%20do%20site%20da%20Marinho%20Advogados%20Associados%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os.">+55
+                            (62) 8230-7903</a></div>
+                      </div>
+                    </li>
+                    <li>
+                      <div class="unit unit-horizontal unit-spacing-xs align-items-center">
+                        <div class="unit-left"><span class="novi-icon icon icon-xxs icon-primary fa-envelope-o"></span>
+                        </div>
+                        <div class="unit-body"><a class="link-dusty-gray"
+                            href="mailto:contato@marinhoassociados.com.br">contato@marinhoassociados.com.br</a></div>
+                      </div>
+                    </li>
+                  </ul>
+                  <div class="rd-navbar-aside-group">
+                    <ul class="list-inline list-inline-reset">
+                      <li><a class="novi-icon icon icon-circle icon-nobel-filled icon-xxs-smaller fa fa-facebook"
+                          href="#"></a></li>
+                      <li><a class="novi-icon icon icon-circle icon-nobel-filled icon-xxs-smaller fa fa-twitter"
+                          href="#"></a></li>
+                      <li><a class="novi-icon icon icon-circle icon-nobel-filled icon-xxs-smaller fa fa-google-plus"
+                          href="#"></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="rd-navbar-group">
+              <div class="rd-navbar-panel">
+                <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button><a
+                  class="rd-navbar-brand brand" href="index.html">Advogados Associados</a>
+              </div>
+              <div class="rd-navbar-nav-wrap">
+                <div class="rd-navbar-nav-inner">
+                  <div class="rd-navbar-btn-wrap"><a class="button button-smaller button-primary-outline"
+                      href="#contato-form">Precisa de ajuda?</a></div>
+                  <ul class="rd-navbar-nav">
+                    <li class="active"><a href="index.html">Início</a></li>
+                    <li><a href="#sobre-nos">Sobre Nós</a></li>
+                    <li><a href="#suspensao-anulacao">Como Funciona</a></li>
+                    <li><a href="#contato-form">Contatos</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
 
-	<!-- Header -->
-	<header id="header" style="background-color: #0B1D53;">
-		<div class="inner">
-			<img src="images/avatar.png" class="img-logo">
-			<h1><strong>Grupo Eneas Marinho</strong>, atuando em diversos segmentos<br />
-				e sempre oferecendo o melhor a você.</h1>
-		</div>
-	</header>
+    <section>
+      <div class="swiper-container swiper-slider swiper-variant-1 bg-black" data-loop="false" data-autoplay="5500"
+        data-simulate-touch="true">
+        <div class="swiper-wrapper text-center">
 
-	<!-- Main -->
-	<div id="main">
+          <div class="swiper-slide"
+            data-slide-bg="https://images.unsplash.com/photo-1555041469-16918c6940fe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8YmxhY2t%20aW1hZ2V8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=1350&q=60">
+            <div class="swiper-slide-caption text-center">
+              <div class="container">
+                <div class="row justify-content-md-center">
+                  <div class="col-md-11 col-lg-10 col-xl-9">
+                    <div class="header-decorated" data-caption-animate="fadeInUp" data-caption-delay="0s">
+                      <h3 class="medium text-primary">Marinho Associados e Castro & Porto Advogados Associados</h3>
+                    </div>
+                    <h2 class="slider-header" data-caption-animate="fadeInUp" data-caption-delay="150">
+                      Excelência em Suspensões e Defesa em Leilões
+                    </h2>
+                    <p class="text-bigger slider-text" data-caption-animate="fadeInUp" data-caption-delay="250">
+                      Atuamos com ética, agilidade e profundo conhecimento jurídico para proteger seu patrimônio.
+                    </p>
+                    <div class="button-block" data-caption-animate="fadeInUp" data-caption-delay="400">
+                      <a class="button button-lg button-primary-outline-v2" href="#contato-form">Solicitar
+                        Atendimento</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
-		<!-- One -->
-		<section id="one">
-			<header class="major">
-				<h2>Grupo Eneas Marinho</h2>
-			</header>
-			<div class="row">
-				<div class="col-12">
-					<img src="images/FotosHome.png.webp" class="image my-2">
-					<br>
-					<p class="text-justify">
-						Bem-vindo ao nosso grupo, onde a excelência em consultoria empresarial se encontra com a
-						advocacia moderna! Nossa missão é unir conhecimento e competência para otimizar negócios e
-						proporcionar soluções jurídicas inovadoras. <Br>
-						Com anos de experiência no mercado, oferecemos serviços personalizados que abrangem desde a
-						criação de estratégias eficazes para o crescimento empresarial até uma assessoria jurídica de
-						ponta, alinhada com as mais recentes tendências e desafios da sociedade. Nossa equipe é composta
-						por profissionais altamente capacitados, incluindo Gerentes de Desenvolvimento de Negócios,
-						Líderes de Projetos e Analistas de Soluções Empresariais, além de advogados especializados que
-						vão muito além da resolução de conflitos, trazendo um entendimento profundo do direito.
-						<br>
-						Seja na consultoria ou na advocacia, nosso grupo é comprometido em oferecer soluções sob medida
-						para que sua empresa cresça e alcance seus objetivos com segurança e inovação.
-						<br><br>
-						<b>Explore o novo e transforme seu negócio conosco!</b>
-					</p>
-				</div>
-			</div>
+          <div class="swiper-slide"
+            data-slide-bg="https://images.unsplash.com/photo-1507842217343-583bb7276b66?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bGlicmFyeXxlbnwwfHwwfHww&auto=format&fit=crop&w=1350&q=60">
+            <div class="swiper-slide-caption text-center">
+              <div class="container">
+                <div class="row justify-content-md-center">
+                  <div class="col-md-11 col-lg-10 col-xl-9">
+                    <div class="header-decorated" data-caption-animate="fadeInUp" data-caption-delay="0s">
+                      <h3 class="medium text-primary">Marinho Advogados Associados</h3>
+                    </div>
+                    <h2 class="slider-header" data-caption-animate="fadeInUp" data-caption-delay="150">
+                      Defesa Estratégica Contra Leilões Indevidos
+                    </h2>
+                    <p class="text-bigger slider-text" data-caption-animate="fadeInUp" data-caption-delay="250">
+                      Contamos com uma equipe especializada na suspensão de leilões e recuperação de bens em risco.
+                    </p>
+                    <div class="button-block" data-caption-animate="fadeInUp" data-caption-delay="400">
+                      <a class="button button-lg button-primary-outline-v2" href="#contato-form">Fale com um
+                        Advogado</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
-			<ul class="actions">
-				<li><a href="https://marinhogestao.com.br" class="button">Falar com consultor</a></li>
-			</ul>
-		</section>
+          <div class="swiper-slide"
+            data-slide-bg="https://images.unsplash.com/photo-1521737852174-7d8653a3ca78?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y291cnthousefGVufDB8fDB8fDA%3D&auto=format&fit=crop&w=1350&q=60">
+            <div class="swiper-slide-caption text-center">
+              <div class="container">
+                <div class="row justify-content-md-center">
+                  <div class="col-md-11 col-lg-10 col-xl-9">
+                    <div class="header-decorated" data-caption-animate="fadeInUp" data-caption-delay="0s">
+                      <h3 class="medium text-primary">Atuação Nacional</h3>
+                    </div>
+                    <h2 class="slider-header" data-caption-animate="fadeInUp" data-caption-delay="150">
+                      Representamos Clientes em Todo o Brasil
+                    </h2>
+                    <p class="text-bigger slider-text" data-caption-animate="fadeInUp" data-caption-delay="250">
+                      Atendimento personalizado e 100% online para suspender leilões judiciais e extrajudiciais.
+                    </p>
+                    <div class="button-block" data-caption-animate="fadeInUp" data-caption-delay="400">
+                      <a class="button button-lg button-primary-outline-v2" href="#contato-form">Agende uma
+                        Consultoria</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
-		<!-- Two -->
-		<section id="two">
-			<h2>Onde atuamos?</h2>
-			<div class="row">
-				<article class="col-6 col-12-xsmall work-item">
-					<a href="https://marinhoassociados.com.br" target="_blank" class="image fit thumb">
-						<img src="images/empresas/empresas-1.png" alt="" />
-					</a>
-					<h3>Marinho associados</h3>
-					<p>Advocacia</p>
-				</article>
-				<article class="col-6 col-12-xsmall work-item">
-					<a href="https://marinhogestao.com.br" class="image fit thumb"><img
-							src="images/empresas/empresas-2.png" alt="" /></a>
-					<h3>Marinho gestão</h3>
-					<p>Gestão de empresas e consultoria</p>
-				</article>
-			</div>
-			<h2>Também estamos presentes em outros segmentos</h2>
-			<div class="row">
-				<article class="col-6 col-12-xsmall work-item">
-					<a href="https://acontrolar.com.br/portal" target="_blank" class="image fit thumb">
-						<img src="images/empresas/empresas-3.png" alt="" />
-					</a>
-					<h3>Acontrolar</h3>
-					<p>Controle de pragas</p>
-				</article>
-				<article class="col-6 col-12-xsmall work-item">
-					<a href="https://ekoenergysolar.com.br/" class="image fit thumb"><img
-							src="images/empresas/empresas-4.png" alt="" /></a>
-					<h3>Ekoenergysolar</h3>
-					<p>Energia Solar</p>
-				</article>
-			</div>
-		</section>
+        </div>
+      </div>
+    </section>
 
-		<!-- Three -->
-		<section id="three">
-			<h2>Precisa de ajuda?</h2>
-			<p>Em caso de dúvidas, sugetões ou atendimento, procure um de nossos consultores</p>
-			<div class="row">
-				<div class="col-8 col-12-small">
-					<iframe
-						src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d122284.12664874305!2d-49.236757!3d-16.707933!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935ef1c538d130bd%3A0x38febd614ce6d1cf!2sEdif%C3%ADcio%20Office%20Flamboyant!5e0!3m2!1spt-BR!2sus!4v1726186244263!5m2!1spt-BR!2sus"
-						width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-						referrerpolicy="no-referrer-when-downgrade"></iframe>
-				</div>
-				<div class="col-4 col-12-small">
-					<ul class="labeled-icons">
-						<li>
-							<h3 class="icon solid fa-home"><span class="label">Endereço</span></h3>
-							Edifício Office Flamboyant, Sala 1001<br />
-							Av. Dep. Jamel Cecílio, 3310 - Jardim Goiás<br />
-							Goiânia - GO
-						</li>
-						<li>
-							<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
-							<a href="mailto:contato@marinhoassociados.com.br">contato@marinhoassociados.com.br</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</section>
-	</div>
+    <section class="section-50 section-md-75 section-lg-100" id="servicos">
+      <div class="container">
+        <h3 class="text-center">Nossos Principais Serviços</h3>
+        <div class="row row-40">
 
-	<!-- Footer -->
-	<footer id="footer">
-		<div class="inner">
-			<ul class="icons">
-				<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-				<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-				<li><a href="#" class="icon brands fa-whatsapp"><span class="label">Whatsapp</span></a></li>
-				<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-			</ul>
-			<ul class="copyright">
-				<li>&copy; Grupo Eneas Marinho</li>
-				<li style="font-size: 10px;">Developer by: <a href="mailto:jonataned13@gmail.com">Jonatan Santos</a>
-				</li>
-				<li style="font-size: 10px;">Design: <a href="http://html5up.net">HTML5 UP</a></li>
-			</ul>
-		</div>
-	</footer>
+          <div class="col-md-6 col-lg-4 height-fill">
+            <article class="icon-box">
+              <div class="box-top">
+                <div class="box-icon">
+                  <span class="novi-icon icon icon-primary icon-lg mercury-icon-briefcase"></span>
+                </div>
+                <div class="box-header">
+                  <h5><a href="#suspensao-anulacao">Suspensão e Anulação de Leilões</a></h5>
+                </div>
+              </div>
+              <div class="divider bg-accent"></div>
+              <div class="box-body">
+                <p>Atuamos com agilidade na suspensão e anulação de leilões judiciais e extrajudiciais, protegendo
+                  imóveis e bens de valor contra irregularidades.</p>
+              </div>
+            </article>
+          </div>
 
-	<!-- Scripts -->
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/jquery.poptrox.min.js"></script>
-	<script src="assets/js/browser.min.js"></script>
-	<script src="assets/js/breakpoints.min.js"></script>
-	<script src="assets/js/util.js"></script>
-	<script src="assets/js/main.js"></script>
+          <div class="col-md-6 col-lg-4 height-fill">
+            <article class="icon-box">
+              <div class="box-top">
+                <div class="box-icon">
+                  <span class="novi-icon icon icon-primary icon-lg mercury-icon-users"></span>
+                </div>
+                <div class="box-header">
+                  <h5><a href="#suspensao-anulacao">Assessoria Pós-Arrematação</a></h5>
+                </div>
+              </div>
+              <div class="divider bg-accent"></div>
+              <div class="box-body">
+                <p>Oferecemos suporte completo para arrematantes, garantindo a segurança jurídica da posse e do registro
+                  do imóvel após o leilão.</p>
+              </div>
+            </article>
+          </div>
 
+          <div class="col-md-6 col-lg-4 height-fill">
+            <article class="icon-box">
+              <div class="box-top">
+                <div class="box-icon">
+                  <span class="novi-icon icon icon-primary icon-lg mercury-icon-lib"></span>
+                </div>
+                <div class="box-header">
+                  <h5><a href="#suspensao-anulacao">Defesa de Ex-Proprietários</a></h5>
+                </div>
+              </div>
+              <div class="divider bg-accent"></div>
+              <div class="box-body">
+                <p>Estratégias jurídicas personalizadas para ex-proprietários buscarem a recuperação de seus bens em
+                  leilões que apresentem vícios.</p>
+              </div>
+            </article>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <style>
+      /* CSS para a nova seção Como Funciona - MELHORADA */
+      .como-funciona-creative {
+        background-color: #F9F9F9; /* Fundo off-white mais suave */
+        padding: 80px 0; /* Espaçamento aprimorado */
+      }
+    
+      .como-funciona-creative h2,
+      .como-funciona-creative h4,
+      .como-funciona-creative p {
+        color: #343a40; /* Cor de texto consistente e escura */
+      }
+    
+      .lista-servicos-custom {
+        list-style: none;
+        padding-left: 0;
+      }
+    
+      .lista-servicos-custom li {
+        display: flex;
+        align-items: flex-start; /* Alinhamento superior para ícone e texto */
+        font-size: 1.1rem;
+        margin-bottom: 1.2rem; /* Mais espaçamento entre os itens */
+        color: #343a40;
+        line-height: 1.5; /* Melhora a legibilidade do texto */
+      }
+    
+      .lista-servicos-custom .icon {
+        color: #0056b3; /* Azul mais profundo e sofisticado */
+        font-size: 1.3rem; /* Ícone ligeiramente maior */
+        margin-right: 20px; /* Mais espaçamento à direita do ícone */
+        margin-top: 2px; /* Pequeno ajuste vertical */
+        min-width: 1.3em; /* Garante que o ícone mantenha o tamanho */
+        text-align: center; /* Centraliza o ícone em seu espaço */
+        flex-shrink: 0; /* Previne que o ícone encolha */
+      }
+    
+      /* Efeitos visuais na imagem da seção "Como Funciona" */
+      .como-funciona-creative .img-fluid {
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Sombra mais destacada */
+        transition: transform 0.3s ease; /* Transição suave para o hover */
+      }
+    
+      .como-funciona-creative .img-fluid:hover {
+        transform: translateY(-5px); /* Efeito de elevação ao passar o mouse */
+      }
+    </style>
+    
+    <section class="section-60 section-lg-100 como-funciona-creative" id="suspensao-anulacao">
+      <div class="container">
+        <div class="row row-50 align-items-center">
+          <div class="col-lg-7">
+            <h2 class="font-weight-bold">Suspensão, Anulação e Assessoria Pós-Arrematação de Imóveis Urbanos e Rurais</h2>
+            <p class="lead mt-3">Proteja seu patrimônio ou investimento com quem domina o processo de leilão
+              imobiliário.</p>
+            <p>Leilões de imóveis — judiciais ou extrajudiciais — estão sujeitos a vícios legais, falhas processuais e
+              irregularidades que podem anular ou suspender a arrematação. Se você é ex-proprietário, arrematante ou
+              comprador interessado, é essencial contar com assessoria jurídica especializada.</p>
+    
+            <h4 class="mt-5">Nossos serviços:</h4>
+            <ul class="lista-servicos-custom">
+              <li>
+                <span class="novi-icon icon fa fa-check-circle"></span>
+                <span>Suspensão e anulação de leilões por vícios no edital, falta de notificação, avaliação incorreta ou
+                  valores irrisórios.</span>
+              </li>
+              <li>
+                <span class="novi-icon icon fa fa-check-circle"></span>
+                <span>Defesa de ex-proprietários com foco em preservar direitos e recuperar o bem.</span>
+              </li>
+              <li>
+                <span class="novi-icon icon fa fa-check-circle"></span>
+                <span>Representação de arrematantes com foco na segurança jurídica da posse e do registro.</span>
+              </li>
+              <li>
+                <span class="novi-icon icon fa fa-check-circle"></span>
+                <span>Assessoria pós-arrematação completa: carta de arrematação, registro em cartório, imissão de posse
+                  e regularização do imóvel.</span>
+              </li>
+              <li>
+                <span class="novi-icon icon fa fa-check-circle"></span>
+                <span>Atuação rápida e estratégica com pedidos liminares quando necessário.</span>
+              </li>
+            </ul>
+    
+            <h4 class="mt-5">Por que escolher nosso escritório?</h4>
+            <ul class="lista-servicos-custom">
+              <li>
+                <span class="novi-icon icon fa fa-check-circle"></span>
+                <span>Equipe especializada em Direito Imobiliário e Processual Civil.</span>
+              </li>
+              <li>
+                <span class="novi-icon icon fa fa-check-circle"></span>
+                <span>Atuação nacional, com atendimento remoto e presencial.</span>
+              </li>
+              <li>
+                <span class="novi-icon icon fa fa-check-circle"></span>
+                <span>Alta taxa de êxito em ações anulatórias e assessoria pós-leilão.</span>
+              </li>
+              <li>
+                <span class="novi-icon icon fa fa-check-circle"></span>
+                <span>Atendimento jurídico personalizado e análise técnica do seu caso.</span>
+              </li>
+            </ul>
+          </div>
+    
+          <div class="col-lg-5 text-center mt-5 mt-lg-0">
+            <img
+              src="images/image-01.png"
+              alt="Documentos jurídicos relacionados a leilão imobiliário" class="img-fluid rounded shadow-lg">
+          </div>
+        </div>
+      </div>
+    </section>
+    <style>
+      /* CSS para a nova seção Sobre Nós */
+      .sobre-nos-creative {
+        background-color: #2a2d43;
+        /* Cor de fundo escura, similar à imagem */
+        color: #ffffff;
+        padding: 80px 0;
+      }
+
+      .quote-box {
+        position: relative;
+        padding: 2rem;
+      }
+
+      /* Colchetes decorativos */
+      .quote-box::before,
+      .quote-box::after {
+        content: '';
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        border-color: rgba(255, 255, 255, 0.5);
+        /* Cor dos colchetes */
+        border-style: solid;
+      }
+
+      .quote-box::before {
+        top: 0;
+        left: 0;
+        border-width: 2px 0 0 2px;
+      }
+
+      .quote-box::after {
+        bottom: 0;
+        right: 0;
+        border-width: 0 2px 2px 0;
+      }
+
+      .sobre-nos-logos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+      }
+
+      .sobre-nos-logos img {
+        max-width: 180px;
+        background-color: #f0f0f0;
+        /* Fundo claro para o logo de Castro & Porto */
+        padding: 15px;
+        border-radius: 8px;
+      }
+    </style>
+
+    <section class="section sobre-nos-creative" id="sobre-nos">
+      <div class="container">
+        <div class="row align-items-center">
+
+          <div class="col-lg-7">
+            <div class="quote-box">
+              <h2 class="text-white mb-4">Sobre Nós</h2>
+              <p class="lead" style="color: #f0f0f0;">
+                Na Marinho Associados e Castro & Porto Advogados Associados, atuamos com excelência, comprometimento e
+                agilidade na defesa dos interesses dos nossos clientes, oferecendo soluções jurídicas eficazes em
+                momentos decisivos.
+              </p>
+              <div class="mt-4">
+                <cite class="text-white font-weight-bold">Marinho Associados e Castro & Porto Associados</cite>
+                <br>
+                <small style="color: #cccccc;">Advogados Associados</small>
+              </div>
+              <div class="mt-5">
+                <a class="button button-lg button-primary-outline" href="#contato-form">
+                  Fale com um Especialista
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5 mt-5 mt-lg-0">
+            <div class="sobre-nos-logos text-center">
+              <img src="images/logotipos/logo-marinho.webp" alt="Marinho Advogados Associados" class="img-fluid mb-4"
+                style="background-color: transparent; padding: 0;">
+              <img src="images/logotipos/logo-castro.jpeg" alt="Castro & Porto Advogados Associados" class="img-fluid">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section-60 section-lg-100" id="parceiros">
+      <div class="container">
+        <h3 class="text-center">Nossas Advogadas Parceiras</h3>
+        <div class="row row-50 justify-content-center align-items-center">
+
+          <div class="col-lg-7">
+
+            <div class="advogada-perfil">
+              <h4 class="mb-1">Lâmid Porto</h4>
+              <p class="text-primary font-weight-bold">Advogada - OAB/GO 74.042</p>
+              <ul class="list-unstyled mt-3">
+                <li class="d-flex align-items-start mb-2">
+                  <span class="novi-icon icon icon-xs icon-primary material-icons-school mr-3 mt-1"></span>
+                  <span>Graduada em Direito pela Universidade Salgado de Oliveira (UNIVERSO).</span>
+                </li>
+                <li class="d-flex align-items-start mb-2">
+                  <span class="novi-icon icon icon-xs icon-primary material-icons-nature_people mr-3 mt-1"></span>
+                  <span>Especialista em Direito Rural e Agronegócio pela Academia Brasileira de Direito Agrário (ABRADA)
+                    e pós-graduanda em Direito Civil e Processo Civil pelo Proordem.</span>
+                </li>
+                <li class="d-flex align-items-start mb-2">
+                  <span class="novi-icon icon icon-xs icon-primary material-icons-account_balance mr-3 mt-1"></span>
+                  <span>Atualmente, exerce a função de Secretária Adjunta da Comissão de Honorários da OAB/GO.</span>
+                </li>
+              </ul>
+            </div>
+
+            <hr class="my-5">
+
+            <div class="advogada-perfil">
+              <h4 class="mb-1">Sara Castro</h4>
+              <p class="text-primary font-weight-bold">Advogada - OAB/GO 74.082</p>
+              <ul class="list-unstyled mt-3">
+                <li class="d-flex align-items-start mb-2">
+                  <span class="novi-icon icon icon-xs icon-primary material-icons-school mr-3 mt-1"></span>
+                  <span>Graduada em Direito pela Pontifícia Universidade Católica do Estado de Goiás (PUC-GO).</span>
+                </li>
+                <li class="d-flex align-items-start mb-2">
+                  <span class="novi-icon icon icon-xs icon-primary material-icons-work mr-3 mt-1"></span>
+                  <span>Pós-graduanda em Direito Agrário e Agronegócio pelo Proordem.</span>
+                </li>
+                <li class="d-flex align-items-start mb-2">
+                  <span
+                    class="novi-icon icon icon-xs icon-primary material-icons-assignment_turned_in mr-3 mt-1"></span>
+                  <span>Possui experiência destacada nas áreas de Direito Previdenciário e Direito do Trabalho.</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-5 text-center mt-5 mt-lg-0">
+            <img src="images/advogadas.jpeg" alt="Advogadas Parceiras Lâmid Porto e Sara Castro"
+              class="img-fluid rounded shadow">
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section parallax-container bg-black"
+      data-parallax-img="https://images.unsplash.com/photo-1526374828632-7cf421663512?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y291cnthousefGVufDB8fDB8fHww&auto=format&fit=crop&w=1920&q=60">
+      <div class="parallax-content">
+        <div class="section-50 section-md-90">
+          <div class="container">
+            <div class="row row-40">
+              <div class="col-sm-6 col-md-3">
+                <div class="box-counter box-counter-inverse"><span
+                    class="novi-icon icon icon-lg icon-primary mercury-icon-group"></span>
+                  <div class="text-large counter">1450</div>
+                  <p class="box-header">Clientes Satisfeitos</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <div class="box-counter box-counter-inverse"><span
+                    class="novi-icon icon icon-lg-smaller icon-primary mercury-icon-scales"></span>
+                  <div class="text-large counter">23</div>
+                  <p class="box-header">Anos de Experiência</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <div class="box-counter box-counter-inverse"><span
+                    class="novi-icon icon icon-lg-smaller icon-primary mercury-icon-partners"></span>
+                  <div class="text-large counter counter-percent">98</div>
+                  <p class="box-header">Casos de Sucesso</p>
+                </div>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <div class="box-counter box-counter-inverse"><span
+                    class="novi-icon icon icon-lg icon-primary mercury-icon-case"></span>
+                  <div class="text-large counter">7500</div>
+                  <p class="box-header">Casos de Leilões e Suspensões</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-66 section-md-90 section-xl-bottom-100">
+      <div class="container">
+        <h3 class="text-center">Testemunhos</h3>
+        <div class="owl-carousel owl-spacing-1 owl-nav-classic owl-style-minimal" data-autoplay="true" data-items="1"
+          data-md-items="2" data-stage-padding="0" data-loop="true" data-margin="30" data-mouse-drag="true"
+          data-nav="true" data-dots="true" data-dots-each="1">
+          <div class="item">
+            <blockquote class="quote-bordered">
+              <div class="quote-body">
+                <div class="quote-open">
+                  <svg version="1.1" baseprofile="tiny" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" width="37px" height="27px" viewbox="0 0 21 15"
+                    preserveAspectRatio="none">
+                    <path d="M9.597,10.412c0,1.306-0.473,2.399-1.418,3.277c-0.944,0.876-2.06,1.316-3.349,1.316
+                        c-1.287,0-2.414-0.44-3.382-1.316C0.482,12.811,0,11.758,0,10.535c0-1.226,0.58-2.716,1.739-4.473L5.603,0H9.34L6.956,6.37
+                        C8.716,7.145,9.597,8.493,9.597,10.412z M20.987,10.412c0,1.306-0.473,2.399-1.418,3.277c-0.944,0.876-2.06,1.316-3.35,1.316
+                        c-1.288,0-2.415-0.44-3.381-1.316c-0.966-0.879-1.45-1.931-1.45-3.154c0-1.226,0.582-2.716,1.74-4.473L16.994,0h3.734l-2.382,6.37
+                        C20.106,7.145,20.987,8.493,20.987,10.412z">
+                    </path>
+                  </svg>
+                </div>
+                <div class="quote-body-inner">
+                  <h6>Um dos Advogados Mais Éticos Que Já Conheci...</h6>
+                  <p>
+                    <q>Nunca conheci outro advogado mais preparado ou focado. João tem a habilidade de dissecar um caso
+                      como um cirurgião experiente, com absoluta calma. Nada parece distraí-lo do seu objetivo, o que
+                      naturalmente o torna extremamente difícil de vencer.</q>
+                  </p>
+                </div>
+              </div>
+              <div class="quote-footer">
+                <div class="unit unit-horizontal unit-spacing-sm align-items-center">
+                  <div class="unit-left"><img class="img-circle"
+                      src="https://images.unsplash.com/photo-1544723795-3fb6469e3760?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGF2YXRhcnxlbnwwfHwwfHww&auto=format&fit=crop&w=68&h=68&q=60"
+                      alt="" width="68" height="68" />
+                  </div>
+                  <div class="unit-body">
+                    <cite>Mark Wilson</cite>
+                    <p class="text-primary">CFO, Wilson Ltd.</p>
+                  </div>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+          <div class="item">
+            <blockquote class="quote-bordered">
+              <div class="quote-body">
+                <div class="quote-open">
+                  <svg version="1.1" baseprofile="tiny" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" width="37px" height="27px" viewbox="0 0 21 15"
+                    preserveAspectRatio="none">
+                    <path d="M9.597,10.412c0,1.306-0.473,2.399-1.418,3.277c-0.944,0.876-2.06,1.316-3.349,1.316
+                        c-1.287,0-2.414-0.44-3.382-1.316C0.482,12.811,0,11.758,0,10.535c0-1.226,0.58-2.716,1.739-4.473L5.603,0H9.34L6.956,6.37
+                        C8.716,7.145,9.597,8.493,9.597,10.412z M20.987,10.412c0,1.306-0.473,2.399-1.418,3.277c-0.944,0.876-2.06,1.316-3.35,1.316
+                        c-1.288,0-2.415-0.44-3.381-1.316c-0.966-0.879-1.45-1.931-1.45-3.154c0-1.226,0.582-2.716,1.74-4.473L16.994,0h3.734l-2.382,6.37
+                        C20.106,7.145,20.987,8.493,20.987,10.412z">
+                    </path>
+                  </svg>
+                </div>
+                <div class="quote-body-inner">
+                  <h6>Advogados Associados são um dos Melhores...</h6>
+                  <p>
+                    <q>Dr Eneas é um daqueles advogados que tem tudo - talento e habilidade, compaixão pelos seus
+                      clientes, e a capacidade de se comunicar bem com qualquer pessoa que ele conheça. Essa é uma das
+                      melhores combinações para um advogado de julgamento e ele é um dos melhores.</q>
+                  </p>
+                </div>
+              </div>
+              <div class="quote-footer">
+                <div class="unit unit-horizontal unit-spacing-sm align-items-center">
+                  <div class="unit-left"><img class="img-circle"
+                      src="https://images.unsplash.com/photo-1544005313-911b870a373d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fGF2YXRhcnxlbnwwfHwwfHww&auto=format&fit=crop&w=68&h=68&q=60"
+                      alt="" width="68" height="68" />
+                  </div>
+                  <div class="unit-body">
+                    <cite>Amanda Eberson</cite>
+                    <p class="text-primary">CEO, Eberson Co.</p>
+                  </div>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="bg-whisper" id="contato-form">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-10 col-lg-9 col-xl-7">
+            <div class="section-50 section-md-75 section-xl-100">
+              <h3>Solicite Agora uma Análise Gratuita do seu Caso</h3>
+              <p class="lead">Preencha o formulário abaixo e receba uma resposta em até 24h úteis.</p>
+              <p>Confiança, experiência e estratégia para proteger o que é seu.</p>
+              <form class="rd-mailform" id="whatsappForm" data-form-output="form-output-global" data-form-type="contact"
+                action="#">
+                <div class="row row-30">
+                  <div class="col-md-6">
+                    <div class="form-wrap">
+                      <input class="form-input" id="request-form-name" type="text" name="name"
+                        data-constraints="@Required">
+                      <label class="form-label" for="request-form-name">Nome Completo</label>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-wrap">
+                      <input class="form-input" id="request-form-phone" type="text" name="phone"
+                        data-constraints="@Numeric @Required">
+                      <label class="form-label" for="request-form-phone">Telefone</label>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-wrap">
+                      <input class="form-input" id="request-form-email" type="email" name="email"
+                        data-constraints="@Email @Required">
+                      <label class="form-label" for="request-form-email">E-mail</label>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-wrap form-wrap-outside">
+                      <select class="form-input select-filter" id="request-form-select" name="service_type"
+                        data-minimum-results-for-search="Infinity">
+                        <option value="Leilão Judicial">Leilão Judicial</option>
+                        <option value="Leilão Extrajudicial">Leilão Extrajudicial</option>
+                        <option value="Suspensão de Bens">Suspensão de Bens</option>
+                        <option value="Assessoria Pós-Arrematação">Assessoria Pós-Arrematação</option>
+                        <option value="Defesa de Ex-Proprietários">Defesa de Ex-Proprietários</option>
+                        <option value="Outros">Outros</option>
+                      </select>
+                      <label class="form-label" for="request-form-select">Tipo de Atendimento</label>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-wrap">
+                      <textarea class="form-input" id="feedback-2-message" name="message"
+                        data-constraints="@Required"></textarea>
+                      <label class="form-label" for="feedback-2-message">Descreva sua Situação</label>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <button class="button button-block button-primary" type="submit">Solicitar Análise
+                          Gratuita</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+          <div class="col-xl-5 d-flex align-items-center justify-content-center mt-5 mt-xl-0">
+            <div class="icon-whatsapp-animated">
+              <span class="novi-icon icon fa fa-comments"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <style>
+      /* Seção de Estilos Adicionados/Modificados */
+
+      /* Para o mapa, se ainda não estiver lá */
+      .map-container {
+        overflow: hidden;
+        position: relative;
+        height: 300px;
+        /* Ajuste a altura conforme necessário */
+      }
+
+      .map-container iframe {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+      }
+
+      /* Novo CSS para o ícone animado no formulário de contato */
+      .icon-whatsapp-animated .fa-comments {
+        font-size: 8rem;
+        /* Tamanho grande do ícone */
+        color: #007bff;
+        /* Cor primária, ajuste conforme necessário para sua paleta de cores */
+        animation: pulse-icon 2s infinite ease-in-out;
+      }
+
+      /* Definição da animação de pulso */
+      @keyframes pulse-icon {
+        0% {
+          transform: scale(1);
+          opacity: 1;
+        }
+
+        50% {
+          transform: scale(1.05);
+          opacity: 0.8;
+        }
+
+        100% {
+          transform: scale(1);
+          opacity: 1;
+        }
+      }
+    </style>
+
+    <script>
+      document.getElementById('whatsappForm').addEventListener('submit', function (event) {
+        event.preventDefault(); // Impede o envio padrão do formulário
+
+        // Coleta os valores de todos os campos do formulário
+        const name = document.getElementById('request-form-name').value;
+        const phone = document.getElementById('request-form-phone').value;
+        const email = document.getElementById('request-form-email').value;
+        const serviceType = document.getElementById('request-form-select').value;
+        const message = document.getElementById('feedback-2-message').value;
+
+        // Monta a mensagem para o WhatsApp
+        let whatsappText = `Olá, gostaria de solicitar uma análise gratuita do meu caso via site.\n\n`;
+        whatsappText += `Nome: ${name}\n`;
+        whatsappText += `Telefone: ${phone}\n`;
+        whatsappText += `E-mail: ${email}\n`;
+        whatsappText += `Tipo de Atendimento: ${serviceType}\n`;
+        whatsappText += `Minha Situação: ${message}\n\n`;
+        whatsappText += `Por favor, entre em contato.`;
+
+        // Codifica a mensagem para URL
+        const encodedText = encodeURIComponent(whatsappText);
+
+        // Constrói a URL do WhatsApp com a mensagem
+        // Certifique-se de que o número de telefone está correto (556282307903)
+        const whatsappUrl = `https://web.whatsapp.com/send?phone=556282307903&text=${encodedText}`;
+
+        // Abre a URL em uma nova aba/janela
+        window.open(whatsappUrl, '_blank');
+      });
+    </script>
+
+    <section class="section-60 section-md-90" id="faq">
+      <div class="container">
+        <h3 class="text-center">Perguntas Frequentes</h3>
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="panel-group panel-group-custom" id="accordion" role="tablist" aria-multiselectable="true">
+              <div class="panel panel-custom">
+                <div class="panel-heading" role="tab" id="headingOne">
+                  <h4 class="panel-title"><a role="button" data-toggle="collapse" data-parent="#accordion"
+                      href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      1. Quais motivos podem justificar a anulação de um leilão de imóvel?
+                    </a></h4>
+                </div>
+                <div id="collapseOne" class="panel-collapse collapse show" role="tabpanel" aria-labelledby="headingOne">
+                  <div class="panel-body">
+                    Leilões podem ser anulados por falhas como ausência de notificação ao devedor, edital irregular,
+                    avaliação desatualizada, preço vil (valor muito abaixo do mercado), ou ausência de intimação de
+                    coproprietários ou cônjuges.
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-custom">
+                <div class="panel-heading" role="tab" id="headingTwo">
+                  <h4 class="panel-title"><a class="collapsed" role="button" data-toggle="collapse"
+                      data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      2. Sou ex-proprietário. Ainda posso recuperar meu imóvel depois do leilão?
+                    </a></h4>
+                </div>
+                <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                  <div class="panel-body">
+                    Em muitos casos, sim. Se houver vícios no processo, é possível suspender ou anular a arrematação,
+                    mesmo após a realização do leilão. Atuamos com agilidade para preservar seus direitos.
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-custom">
+                <div class="panel-heading" role="tab" id="headingThree">
+                  <h4 class="panel-title"><a class="collapsed" role="button" data-toggle="collapse"
+                      data-parent="#accordion" href="#collapseThree" aria-expanded="false"
+                      aria-controls="collapseThree">
+                      3. Comprei um imóvel em leilão. Posso perder esse imóvel?
+                    </a></h4>
+                </div>
+                <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+                  <div class="panel-body">
+                    Sim, se o processo tiver vícios legais, sua arrematação pode ser anulada judicialmente. Por isso,
+                    oferecemos análise prévia e assessoria pós-arrematação para garantir segurança jurídica ao
+                    arrematante.
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-custom">
+                <div class="panel-heading" role="tab" id="headingFour">
+                  <h4 class="panel-title"><a class="collapsed" role="button" data-toggle="collapse"
+                      data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                      4. Quanto tempo demora o processo de anulação?
+                    </a></h4>
+                </div>
+                <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFour">
+                  <div class="panel-body">
+                    O tempo varia conforme o tipo de leilão (judicial ou extrajudicial) e a complexidade do caso. Em
+                    situações urgentes, entramos com medidas liminares para suspender imediatamente os efeitos da
+                    arrematação.
+                  </div>
+                </div>
+              </div>
+              <div class="panel panel-custom">
+                <div class="panel-heading" role="tab" id="headingFive">
+                  <h4 class="panel-title"><a class="collapsed" role="button" data-toggle="collapse"
+                      data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                      5. Vocês atendem em todo o Brasil?
+                    </a></h4>
+                </div>
+                <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+                  <div class="panel-body">
+                    Sim. Nosso escritório atua em todo o território nacional, com atendimento remoto eficiente e
+                    estrutura jurídica preparada para representar clientes em qualquer estado.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-50 section-md-75 section-xl-100" id="noticias">
+      <div class="container">
+        <h3 class="text-center">Últimas Notícias sobre Leilões e Suspensões</h3>
+        <div class="row row-40 row-offset-1 justify-content-sm-center justify-content-md-start">
+          <!-- <div class="col-sm-9 col-md-6 col-lg-4 col-xl-3">
+            <article class="post-boxed">
+              <div class="post-boxed-image"><img
+                  src="https://images.unsplash.com/photo-1542472717-915609355b20?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fG5ld3N8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=268&h=182&q=60"
+                  alt="Notícia sobre direitos de mulheres em leilões" width="268" height="182" />
+              </div>
+              <div class="post-boxed-body">
+                <div class="post-boxed-title"><a href="#">Iniciativa pelos Direitos das Mulheres no Contexto de
+                    Leilões</a></div>
+                <div class="post-boxed-footer">
+                  <ul class="post-boxed-meta">
+                    <li>
+                      <time datetime="2025-04-25">25 DE ABRIL, 2025</time>
+                    </li>
+                    <li><span>por</span><a href="#">Admin</a></li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+          </div> -->
+          <div class="col-sm-9 col-md-6 col-lg-4 col-xl-3">
+            <article class="post-boxed">
+              <div class="post-boxed-image"><img
+                  src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGxlZ2FsJTIwZG9jdW1lbnRzfGVufDB8fDB8fHww&auto=format&fit=crop&w=268&h=182&q=60"
+                  alt="Documentos Legais Essenciais para Participação em Leilões" width="268" height="182" />
+              </div>
+              <div class="post-boxed-body">
+                <div class="post-boxed-title"><a href="#">Documentos Legais que Todo Participante de Leilão Precisa</a>
+                </div>
+                <div class="post-boxed-footer">
+                  <ul class="post-boxed-meta">
+                    <li>
+                      <time datetime="2025-04-20">20 DE ABRIL, 2025</time>
+                    </li>
+                    <li><span>por</span><a href="#">Admin</a></li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+          </div>
+          <!-- <div class="col-sm-9 col-md-6 col-lg-4 col-xl-3">
+            <article class="post-boxed">
+              <div class="post-boxed-image"><img
+                  src="https://images.unsplash.com/photo-1498050108023-c29ee2d87dd9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGFjY2Vssc2liaWxpdHl8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=268&h=182&q=60"
+                  alt="Acessibilidade nos Leilões Judiciais" width="268" height="182" />
+              </div>
+              <div class="post-boxed-body">
+                <div class="post-boxed-title"><a href="#">Ajude-nos a Tornar os Leilões Acessíveis para Todos</a></div>
+                <div class="post-boxed-footer">
+                  <ul class="post-boxed-meta">
+                    <li>
+                      <time datetime="2025-04-23">23 DE ABRIL, 2025</time>
+                    </li>
+                    <li><span>por</span><a href="#">Admin</a></li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+          </div>
+          <div class="col-sm-9 col-md-6 col-lg-4 col-xl-3">
+            <article class="post-boxed">
+              <div class="post-boxed-image"><img
+                  src="https://images.unsplash.com/photo-1518621798363-2287c2b53573?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGRvY3VtZW50c3xlbnwwfHwwfHww&auto=format&fit=crop&w=268&h=182&q=60"
+                  alt="Documentos Legais para Suspensão de Bens e Direitos" width="268" height="182" />
+              </div>
+              <div class="post-boxed-body">
+                <div class="post-boxed-title"><a href="#">5 Documentos Legais Essenciais para Suspensão de Bens</a>
+                </div>
+                <div class="post-boxed-footer">
+                  <ul class="post-boxed-meta">
+                    <li>
+                      <time datetime="2025-04-12">12 DE ABRIL, 2025</time>
+                    </li>
+                    <li><span>por</span><a href="#">Admin</a></li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+          </div> -->
+        </div>
+      </div>
+    </section>
+
+    <section class="section-60 section-md-90 bg-gray-dark" id="localizacao">
+      <div class="container">
+        <h3 class="text-center text-white">Nossa Localização</h3>
+        <div class="row row-50 justify-content-center align-items-center">
+          <div class="col-lg-6 text-white text-center text-lg-left">
+            <address>
+              <strong>Edifício Office Flamboyant, Sala 1001</strong><br>
+              Av. Dep. Jamel Cecílio, 3310 - Jardim Goiás<br>
+              Goiânia - GO, Brasil
+            </address>
+            <ul class="list-inline list-inline-xs">
+              <li><a class="novi-icon icon icon-sm icon-white fa fa-phone"
+                  href="https://web.whatsapp.com/send?phone=556282307903&text=Ol%C3%A1%2C%20estou%20entrando%20em%20contato%20atrav%C3%A9s%20do%20site%20da%20Marinho%20Advogados%20Associados%2C%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20os%20servi%C3%A7os."
+                  title="WhatsApp"></a></li>
+              <li><a class="novi-icon icon icon-sm icon-white fa fa-envelope-o"
+                  href="mailto:contato@marinhoassociados.com.br" title="Email"></a></li>
+            </ul>
+          </div>
+          <div class="col-lg-6">
+            <div class="map-container">
+              <iframe
+                src="https://maps.google.com/maps?q=Av.+Dep.+Jamel+Cecílio,+3310+-+Jardim+Goiás,+Goiânia+-+GO,+74810-100&output=embed"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="page-foot bg-ebony-clay">
+      <div class="container">
+        <hr>
+      </div>
+      <div class="section-35">
+        <div class="container text-center">
+          <div class="row row-15 flex-md-row-reverse justify-content-md-between align-items-md-center">
+            <div class="col-md-6 text-md-right">
+              <div class="group-sm group-middle">
+                <p class="font-italic text-white">Siga-nos:</p>
+                <ul class="list-inline list-inline-reset">
+                  <li><a class="novi-icon icon icon-circle icon-bright-gray-filled icon-xxs-smaller fa fa-facebook"
+                      href="#"></a></li>
+                  <li><a class="novi-icon icon icon-circle icon-bright-gray-filled icon-xxs-smaller fa fa-twitter"
+                      href="#"></a></li>
+                  <li><a class="novi-icon icon icon-circle icon-bright-gray-filled icon-xxs-smaller fa fa-google-plus"
+                      href="#"></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-6 text-md-left">
+              <p class="rights text-white"><span class="copyright-year"></span><span> © </span><span>Leilões &
+                  Suspensões. Todos os
+                  Direitos
+                  Reservados.</span>Design por 
+              </p>
+              <address class="rights text-white-lighter">
+                Edifício Office Flamboyant, Sala 1001<br>
+                Av. Dep. Jamel Cecílio, 3310 - Jardim Goiás<br>
+                Goiânia - GO, Brasil
+              </address>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <div class="snackbars" id="form-output-global"></div>
+  <script src="js/core.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 
 </html>
